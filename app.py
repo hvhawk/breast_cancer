@@ -12,7 +12,7 @@ import scipy
 import sklearn
 
 #loading the saved model
-mdl=pickle.load(open(r"D:\College Projects\Jupyter Projects\small projekt 1\q1\svm_trained.sav",'rb'))
+mdl=pickle.load(open(r"D:\College Projects\Jupyter Projects\small projekt 1\q1\svm_trained.pkl",'rb'))
 
 # creating a function for prediction
 
