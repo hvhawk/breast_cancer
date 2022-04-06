@@ -8,6 +8,8 @@ Created on Thu Dec 23 03:27:42 2021
 import numpy as np
 import pickle
 import streamlit as st
+import scipy
+import sklearn
 
 #loading the saved model
 mdl=pickle.load(open(r"D:\College Projects\Jupyter Projects\small projekt 1\q1\svm_trained.sav",'rb'))
